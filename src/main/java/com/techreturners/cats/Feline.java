@@ -17,6 +17,11 @@ public abstract class Feline implements Cat {
         sleeping = true;
     }
 
+    @Override
+    public void wakeUp(){
+        sleeping = false;
+    }
+
     public abstract void eat();
 
     @Override
