@@ -5,10 +5,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CatTest {
 
+
     @Test
     public void checkCatIsAwake() {
         Cat domesticCat = new DomesticCat();
-        assertFalse("Cat should be awake by default", domesticCat.isAsleep());
+        assertFalse(domesticCat.isAsleep(), "Cat should be awake by default");
     }
 
     @Test
