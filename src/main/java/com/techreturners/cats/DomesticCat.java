@@ -8,12 +8,8 @@ public class DomesticCat extends Feline {
     }
 
     @Override
-    public void eat() {
-
+    public String eat() {
+        return "prrrrrrrrr";
     }
 
-    @Override
-    public void run() {
-
-    }
 }

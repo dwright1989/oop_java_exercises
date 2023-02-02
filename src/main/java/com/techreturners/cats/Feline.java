@@ -12,6 +12,14 @@ public abstract class Feline implements Cat {
         return sleeping;
     }
 
+    public int getAverageHeight() {
+        return averageHeight;
+    }
+
+    public String getSetting() {
+        return setting;
+    }
+
     @Override
     public void goToSleep() {
         sleeping = true;
@@ -22,18 +30,13 @@ public abstract class Feline implements Cat {
         sleeping = false;
     }
 
-    public abstract void eat();
+    public abstract String eat();
 
     @Override
     public void run() {
-
+        System.out.println("I'm running");
     }
 
-    public int getAverageHeight() {
-        return averageHeight;
-    }
 
-    public String getSetting() {
-        return setting;
-    }
+
 }

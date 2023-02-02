@@ -3,7 +3,7 @@ package com.techreturners.cats;
 interface Cat {
 
      boolean isAsleep();
-     void eat();
+     String eat();
      void goToSleep();
      void wakeUp();
      void run();
