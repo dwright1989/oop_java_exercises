@@ -9,4 +9,5 @@ interface Cat {
      void run();
 
      String getSetting();
+     int getAverageHeight();
 }

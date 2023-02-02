@@ -3,7 +3,7 @@ package com.techreturners.cats;
 public abstract class Feline implements Cat {
 
     public boolean sleeping;
-    public int height;
+    public int averageHeight;
     public String setting;
 
 
@@ -29,8 +29,8 @@ public abstract class Feline implements Cat {
 
     }
 
-    public int getHeight() {
-        return height;
+    public int getAverageHeight() {
+        return averageHeight;
     }
 
     public String getSetting() {

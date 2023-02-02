@@ -2,7 +2,10 @@ package com.techreturners.cats;
 
 public class DomesticCat extends Feline {
 
-    private String setting = "Domestic";
+    public DomesticCat(){
+        this.setting = "Domestic";
+        this.averageHeight = 23;
+    }
 
     @Override
     public void eat() {
