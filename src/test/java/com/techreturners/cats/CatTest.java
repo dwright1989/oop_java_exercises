@@ -16,7 +16,7 @@ public class CatTest {
     public void checkCatCanGoToSleep() {
         Cat domesticCat = new DomesticCat();
         domesticCat.goToSleep();
-        assertTrue("Cat should be snoozing", domesticCat.isAsleep());
+        assertTrue(domesticCat.isAsleep(), "Cat should be snoozing");
     }
 
     @Test
@@ -24,7 +24,7 @@ public class CatTest {
         Cat domesticCat = new DomesticCat();
         domesticCat.goToSleep();
         domesticCat.wakeUp();
-        assertFalse("Cat should be awake now", domesticCat.isAsleep());
+        assertFalse(domesticCat.isAsleep(), "Cat should be awake now");
     }
 
     @Test

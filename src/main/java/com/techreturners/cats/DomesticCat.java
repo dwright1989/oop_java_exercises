@@ -1,18 +1,9 @@
 package com.techreturners.cats;
 
-public class DomesticCat implements Cat{
+public class DomesticCat extends Feline {
 
-    @Override
-    public boolean isAsleep() {
-        return sleeping;
-    }
     @Override
     public void eat() {
-
-    }
-
-    @Override
-    public void sleep() {
 
     }
 
