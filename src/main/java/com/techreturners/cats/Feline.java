@@ -28,4 +28,12 @@ public abstract class Feline implements Cat {
     public void run() {
 
     }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public String getSetting() {
+        return setting;
+    }
 }

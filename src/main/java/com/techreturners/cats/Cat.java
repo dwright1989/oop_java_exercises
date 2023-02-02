@@ -8,4 +8,5 @@ interface Cat {
      void wakeUp();
      void run();
 
+     String getSetting();
 }
